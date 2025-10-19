@@ -1,4 +1,4 @@
-use client"
+"use client";
 
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import HeroSplit from '@/components/sections/hero/HeroSplit';
@@ -27,7 +27,7 @@ export default function Home() {
       defaultTextAnimation="entrance-slide"
       borderRadius="pill"
     >
-      <div id="nav" data-section="nav">
+      <div id="nav" data-section="nav" className="scroll-mt-24">
         <NavbarLayoutFloatingOverlay
           navItems={[{ name: "About", id: "about" }, { name: "Features", id: "features" }, { name: "Pricing", id: "pricing" }, { name: "Contact", id: "contact" }]}
           brandName="Webild"
